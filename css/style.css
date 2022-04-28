@@ -144,3 +144,56 @@ body {
     height: 460px;
 }
 /*Step-2 endblock*/
+/*Step-3 block*/
+.step-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.step-3-header {padding-top: 150px;}
+
+.step-3-header h2 {
+    height: 156px;
+    font-size: 42px;
+    margin: 0 20px 30px 20px;
+}
+
+.step-3-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    margin: 0 159px;
+    padding-bottom: 180px;
+}
+
+.step-3-content img {
+    margin: 0 0 25px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    height: 265px;
+    margin:  0 20px;
+    margin-bottom: 100px;
+}
+
+.content-box h2 {
+    font-size: 30px;
+    margin: 12px 0 25px;
+}
+
+.content-box p {
+    font-size: 16px;
+    width: 320px;
+    line-height: 25px;
+}
+/*Step-3 endblock*/
