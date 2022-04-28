@@ -7,6 +7,18 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+/*Nav block*/
+#step-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://static.tildacdn.com/tild6239-6638-4865-b638-633631326634/rawpixelcom340966.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 649px;
+}
+
 .topnav {
     display: flex;
     flex-direction: row;
@@ -23,8 +35,49 @@ body {
     font-size: 16px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
     padding: 0 15px;
 }
 
+.topnav-logo {
+    color: white;
+    margin-right: 120px;
+}
+
 .right-topnav {padding: 0 40px 0 105px;}
+
+.head-topnav {
+    align-self: center;
+    justify-self: center;
+    color: white;
+    padding: 42px 0;
+    text-align: center;
+}
+
+.head-topnav h2 {
+    padding: 24px 0;
+    font-size: 72px;
+}
+
+.head-topnav p {
+    font-size: 22px;
+    padding: 15px 0 30px;
+}
+
+.head-topnav button {
+    padding: 20px 60px;
+    background-color: darkorange;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.head-topnav button:hover {
+    background-color: orange;
+    transform: scale(1.1);
+}
+/*Nav endblock*/
