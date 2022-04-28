@@ -7,7 +7,17 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-/*Nav block*/
+@keyframes anime1 {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+/*Step-1-Nav block*/
 #step-1 {
     display: flex;
     flex-direction: column;
@@ -37,11 +47,13 @@ body {
     font-weight: bold;
     color: white;
     padding: 0 15px;
+    transition: 0.5s ease;
 }
 
 .topnav-logo {
     color: white;
     margin-right: 120px;
+    transition: 0.5s ease;
 }
 
 .right-topnav {padding: 0 40px 0 105px;}
@@ -66,6 +78,7 @@ body {
 
 .head-topnav button {
     padding: 20px 60px;
+    margin: 45px 0;
     background-color: darkorange;
     font-size: 16px;
     font-weight: bold;
@@ -76,8 +89,58 @@ body {
     transition: 0.5s;
 }
 
+.topnav-down {
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    animation: anime1 1000ms ease-in-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.topnav-logo:hover {transform: scale(1.1);}
+
 .head-topnav button:hover {
     background-color: orange;
     transform: scale(1.1);
 }
-/*Nav endblock*/
+/*Step-1-Nav endblock*/
+
+/*Step-2 block*/
+.step-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 159px;
+    padding: 180px 0;
+}
+
+.step-2-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 52px;
+    width: 560px;
+    height: 460px;
+}
+
+.step-2-left h2 {
+    margin: 0 0 24px;
+    font-size: 42px;
+}
+
+.step-2-left p {
+    font-size: 20px;
+    margin: 23px 0 0;
+}
+
+.step-2-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 460px;
+    height: 460px;
+}
+/*Step-2 endblock*/
