@@ -26,7 +26,7 @@ body {
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    height: 649px;
+    height: 726px;
 }
 
 .topnav {
@@ -108,7 +108,7 @@ body {
 /*Step-1-Nav endblock*/
 
 /*Step-2 block*/
-.step-2 {
+#step-2 {
     display: flex;
     flex-direction: row;
     margin: 0 159px;
