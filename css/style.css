@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url(https://static.tildacdn.com/tild6239-6638-4865-b638-633631326634/rawpixelcom340966.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -162,8 +162,8 @@ body {
 
 .step-3-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3);
+    grid-template-rows: repeat(3, 3);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -197,3 +197,51 @@ body {
     line-height: 25px;
 }
 /*Step-3 endblock*/
+
+/*Step-4 block*/
+.step-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.tildacdn.com/tild6433-6564-4637-a664-633236363765/blob.png);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 560px;
+}
+
+.step-4 h2 {
+    font-size: 48px;
+    margin: 0 0 25px;
+    color: white;
+    text-align: center;
+}
+
+.step-4 p {
+    font-size: 24px;
+    color: white;
+    margin: 0 180px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.step-4 button {
+    font-size: 16px;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    background-color: darkorange;
+    border-radius: 5px;
+    margin: 70px 0 0;
+    transition: 0.5s;
+}
+
+.step-4 button:hover {
+    transform: scale(1.1);
+}
+
+
+/*Step-4 endblock*/
