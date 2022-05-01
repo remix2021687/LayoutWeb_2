@@ -4,4 +4,11 @@ $(document).ready(function() {
             scrollTop: $("#step-2").offset().top
         }, 1000);
     });
+
+    $("#btn").click(function() {
+        console.log("Test");
+        $("html, body").animate({
+            scrollTop: $(".step-7").offset().top
+        }, 1000);
+    });
 });

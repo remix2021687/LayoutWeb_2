@@ -347,8 +347,95 @@ body {
 
 .step-6-avtor h4 {margin: 14px 0 0;}
 
-.underline {
-    /* text-decoration: underline; */
-    border-bottom: 3px solid orange;
-}
+.underline {border-bottom: 3px solid orange;}
 /*Step-6 endblock*/
+
+/*Step-7 block*/
+.step-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.tildacdn.com/tild3964-3831-4932-b334-336562653062/blob.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    height: 721px;
+}
+
+.step-7-header {margin: 0 0 74px;}
+
+.step-7-header h2 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.step-7-header p {
+   margin: 24px 180px 0;
+   width: 600px;
+   font-size: 24px;
+   text-align: center;
+   color: white;
+   line-height: 30px;
+}
+
+.step-7-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs {
+    width: 246px;
+    height: 56px;
+    padding: 0 20px;
+    margin: 0 20px 0 0;
+    border: 1px solid white;
+    background: none;
+    font-size: 16px;
+    color: white;
+    outline: none;
+}
+
+.step-7-content button {
+    padding: 1px 40px;
+    width: 161px;
+    height: 56px;
+    background-color: orange;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.step-7-content button:hover {transform: scale(1.1);}
+/*Step-7 endblock*/
+
+/*Footer block*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 624px;
+    text-align: center;
+    background-color: white;
+}
+
+.footer h4 {
+    font-size: 16px;
+    margin: 0 0 45px;
+}
+
+.footer-up {font-size: 25px;}
+
+.footer-down p {
+    margin: 45px 0 45px 0;
+    font-size: 18px;
+}
+
+/*Footer endblock*/
