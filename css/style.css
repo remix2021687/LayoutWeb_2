@@ -439,3 +439,30 @@ body {
 }
 
 /*Footer endblock*/
+
+/*Media block*/
+@media (max-width: 932px) {
+    .topnav {
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        align-items: center;
+        height: 357px;
+    }
+    .left-topnav {padding: 0;}
+    .topnav-logo {margin: 0;}
+    .right-topnav {padding: 0;}
+}
+
+@media (max-width: 595px) {
+    .head-topnav h2 {font-size: 52px;}
+    .head-topnav p {font-size: 18px;}
+}
+
+@media (max-width: 430px) {.head-topnav h2 {font-size: 42px;}}
+
+@media (max-width: 346px) {
+    .head-topnav h2 {font-size: 32px;}
+    .head-topnav p {font-size: 15px;}
+}
+/*Media endblock*/
