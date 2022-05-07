@@ -386,6 +386,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 .inputs {
@@ -465,10 +466,14 @@ body {
         width: auto;
     }
 
-    .step-2-left {     
-        text-align: center;
-    }
+    .step-7-header p {
+        margin: 24px 0 0 0;
+        width: auto;
+}
 
+    .step-7 button {margin-top: 20px;}
+
+    .step-2-left {text-align: center;}
     .step-2-right img {margin-right: 13px;}
 }
 
@@ -577,11 +582,27 @@ body {
     }
 
     .step-6-header h2 {font-size: 20px;}
+    .step-7-header h2 {font-size: 38px;}
+
+    .footer-up h2 {
+        font-size: 27px;
+    }
+
+    .inputs {margin: 20px 0 0 0;}
 }
 
 @media (max-width: 346px) {
     .head-topnav h2 {font-size: 32px;}
     .head-topnav p {font-size: 15px;}
+    .step-7-header h2 {font-size: 28px;}
+    .step-7-header p {font-size: 20px;}
+
+    .footer-up h2 {font-size: 20px;}
+
+    .footer-down img {
+        width: 37px;
+        height: 37px;
+    }
 }
 /*Media endblock*/
 /*Footer endblock*/
