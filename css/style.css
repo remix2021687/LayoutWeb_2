@@ -514,6 +514,12 @@ body {
 @media (max-width: 430px) {.head-topnav h2 {font-size: 42px;}}
 
 @media (max-width: 428px) {
+
+    .step-3-header h2 {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
     .content-box {
         margin: 0;
         margin-bottom: 100px;
@@ -523,6 +529,7 @@ body {
 
     .content-box p {
         width: auto;
+        margin: 0 10px 0 10px;
     }
 }
 
