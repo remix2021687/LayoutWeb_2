@@ -386,6 +386,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-flow: wrap;
 }
 
 .inputs {
@@ -438,4 +439,170 @@ body {
     font-size: 18px;
 }
 
+/*Footer endblock*/
+
+/*Media block*/
+
+@media (max-width: 1210px) {
+    .step-3-content {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        margin: 0;
+    }
+
+    .step-5-header p {margin: 0;}
+
+    .step-6-content {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+    }
+}
+
+@media (max-width: 1025px) {
+    #step-2 {
+        margin: 0 20px;
+        width: auto;
+    }
+
+    .step-7-header p {
+        margin: 24px 0 0 0;
+        width: auto;
+}
+
+    .step-7 button {margin-top: 20px;}
+
+    .step-2-left {text-align: center;}
+    .step-2-right img {margin-right: 13px;}
+}
+
+@media (max-width: 932px) {
+    .topnav {
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        align-items: center;
+        height: 357px;
+    }
+
+    .left-topnav {padding: 0;}
+    .topnav-logo {margin: 0;}
+    .right-topnav {padding: 0;}
+}
+
+@media (max-width: 751px) {
+    #step-2 {
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    #step-2 h2 {font-size: 26px;}
+
+    .step-2-left {
+        width: auto;
+        height: 360px;
+        margin: 0 15px 0 15px;
+    }
+
+    .step-2-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .step-2-right img {
+        margin-right: 0;
+        margin-bottom: 13px;
+    }
+
+    .step-4 h2 {font-size: 38px;}
+    .step-4 p {margin: 0;}
+
+    .step-6-box {margin: 0 15px 100px 15px;}
+
+    .step-6-box-content p {width: auto;}
+}
+
+@media (max-width: 595px) {
+    .head-topnav h2 {font-size: 52px;}
+    .head-topnav p {font-size: 18px;}
+
+    .step-5-header h2 {
+        margin: 0 10px 20px 10px;
+        font-size: 32px;
+    }
+    .step-5-header p {
+        margin: 0 10px 0 10px;
+        font-size: 20px;
+        width: auto;
+    }
+    .step-5-box {margin: 0 10px 70px 10px;}
+    
+    .step-6-content {
+        padding: 0;
+        padding-bottom: 210px;
+    }
+
+    .step-6-header h2 {font-size: 25px;}
+
+}
+
+@media (max-width: 430px) {.head-topnav h2 {font-size: 42px;}}
+
+@media (max-width: 428px) {
+
+    .step-3-header h2 {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content-box {
+        margin: 0;
+        margin-bottom: 100px;
+        width: auto;
+        height: auto;
+    }
+
+    .content-box p {
+        width: auto;
+        margin: 0 10px 0 10px;
+    }
+
+    .step-4 h2 {
+        font-size: 24px;
+        margin: 0 10px 20px 10px;
+    }
+    .step-4 p {
+        font-size: 18px;
+        margin: 0 10px 0 10px;
+    }
+
+    .step-6-header h2 {font-size: 20px;}
+    .step-7-header h2 {font-size: 38px;}
+
+    .footer-up h2 {
+        font-size: 27px;
+    }
+
+    .inputs {margin: 20px 0 0 0;}
+}
+
+@media (max-width: 346px) {
+    .head-topnav h2 {font-size: 32px;}
+    .head-topnav p {font-size: 15px;}
+    .step-7-header h2 {font-size: 28px;}
+    .step-7-header p {font-size: 20px;}
+
+    .footer-up h2 {font-size: 20px;}
+
+    .footer-down img {
+        width: 37px;
+        height: 37px;
+    }
+}
+/*Media endblock*/
 /*Footer endblock*/
