@@ -21,12 +21,13 @@ body {
 #step-1 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-image: url(https://static.tildacdn.com/tild6239-6638-4865-b638-633631326634/rawpixelcom340966.jpg);
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
-    height: 726px;
+    height: 100vh;
 }
 
 .topnav {
@@ -59,8 +60,6 @@ body {
 .right-topnav {padding: 0 40px 0 105px;}
 
 .head-topnav {
-    align-self: center;
-    justify-self: center;
     color: white;
     padding: 42px 0;
     text-align: center;
@@ -111,6 +110,7 @@ body {
 #step-2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 0 159px;
     padding: 180px 0;
 }
@@ -298,7 +298,7 @@ body {
 .step-6 {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     background-color: whitesmoke;
 }
@@ -317,12 +317,11 @@ body {
 
 .step-6-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    padding: 0 159px;
-    padding-bottom: 210px;
+    grid-template-columns: repeat(2, 430px);
+    grid-template-rows: repeat(2, 173px);
+    grid-column-gap: 150px;
+    grid-row-gap: 20px;
+    padding-bottom: 150px;
 }
 
 .step-6-box {
